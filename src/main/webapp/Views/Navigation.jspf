@@ -1,0 +1,35 @@
+ <header><h1><span style="font-size:26px; color:white"><span style="font-family:Verdana,Geneva,sans-serif">Hostel Management System</span></span></h1></header>
+  <!-- The navigation menu -->
+<div class="navbar">
+  <a href="index.jsp">Home</a>
+  <div class="subnav">
+    <button class="subnavbtn">User Management <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="ModifyUser.jsp">Modify User</a>
+      <a href="UserData.jsp">Enrollment</a>
+      <a href="#careers">Careers</a>
+    </div>
+  </div>
+  <div class="subnav">
+    <button class="subnavbtn">Services <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="Complaint.jsp">Complaint</a>
+      <a href="RoomList.jsp">Room List</a>
+      <a href="BioData.jsp">Bio Data</a>
+      <a href="UploadPhoto.jsp">Upload Photo</a>
+      <a href="PhotoViewer.jsp">View Photo</a>
+    </div>
+  </div>
+  <div class="subnav">
+    <button class="subnavbtn">Partners <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="#link1">Link 1</a>
+      <a href="#link2">Link 2</a>
+      <a href="#link3">Link 3</a>
+      <a href="#link4">Link 4</a>
+    </div>
+  </div>
+  <a href="Contact.jsp">Contact</a>
+  <a href="logout">Logout</a>
+  <div style="text-align:right; color:white"><%=session.getAttribute("name") %> </div>
+</div>
